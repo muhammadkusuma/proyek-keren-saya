@@ -1,0 +1,8 @@
+{
+    "file_name": "2025-10-25_data_mentah-2.csv",
+    "data_source": "Ekspor database Scopus",
+    "date_collected": "2025-10-25",
+    "device_or_tool": "Web interface Scopus (Fungsi Ekspor)",
+    "parameter_version": "Kueri: (\"Blockchain\" OR \"Smart Contract\") AND (\"Islamic Finance\" OR \"Sharia Compliance\" OR \"Islamic Banking\") AND (\"Akad\" OR \"Contract\" OR \"Transparency\" OR \"Murabahah\" OR \"Mudharabah\") AND ( LIMIT-TO ( DOCTYPE,\"ar\" ) ) AND ( LIMIT-TO ( LANGUAGE,\"English\" ) )",
+    "collector": "Kusuma, M. Wira Ade"
+}
