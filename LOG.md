@@ -1,3 +1,21 @@
+### Log Eksperimen: 2025-10-26
+
+1. **Tujuan singkat**: Melakukan analisis bibliometrik, menghasilkan laporan, dan membuat interpretasi awal dari data yang sudah disaring pada 2025-10-25.
+2. **Data & sumber**: Data Scopus hasil *filtering* akhir (`2025-10-25_data_mentah-5.csv`).
+3. **Alat & versi**: Biblioshiny (berbasis Bibliometrix R package).
+4. **Protokol ringkas**:
+    1. Data mentah Scopus diimpor ke Biblioshiny.
+    2. Menghasilkan laporan umum (MainInfo, AnnualSciProd, AnnualCitPerYear) dan mengekspornya.
+    3. Menghasilkan analisis dasar (Laporan Bibliometrik, Plot Tiga Bidang).
+5. **Keputusan pembersihan**: Tidak ada pembersihan tambahan; data sudah bersih (clean data) dan siap dianalisis.
+6. **Hasil cepat**:
+    1. **Data Analisis:** Dihasilkan Laporan Biblioshiny Data Mentah (`2025-10-26_Laporan-Biblioshiny-Data-Mentah.xlsx`). Parameter versi: `Report`.
+    2. **Interpretasi Umum:** Dibuat Interpretasi Bibliometrik SCOPUS (`2025-10-26_Interpretasi-Bibliometrik-SCOPUS.txt`). Parameter versi: Analisis dilakukan pada koleksi dari database SCOPUS.
+    3. **Interpretasi Jaringan:** Dibuat Interpretasi Three-Field Plot (`2025-10-26_Interpretasi-Three-Field-Plot.txt`). Parameter versi: Target 'AU', kanan 'KW\_Merged', kiri 'CR'.
+7. **Catatan lanjutan**: Hasil interpretasi awal menunjukkan fokus riset yang kuat pada *blockchain* dan *Islamic banking*. Lanjutkan dengan analisis klaster (clustering) dan visualisasi mendalam.
+
+---
+
 ### Log Eksperimen: 2025-10-25
 
 1. **Tujuan singkat**: Akuisisi data awal dari Scopus (filtering bertahap).
